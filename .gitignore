@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+.pytest_cache/
+build/
+dist/
+
+# Never commit personal configuration, credentials or captured run output.
+config.yaml
+*-pw.txt
+*.part
+baselines/
